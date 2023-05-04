@@ -6,6 +6,7 @@ import Link from '@mui/material/Link';
 
 const phoneNumbers = [
   '070-631 50 97',
+  '070-317 94 66',
 ];
 
 const Info = () => {
@@ -82,6 +83,11 @@ const Info = () => {
       <Typography variant="body1" component="ul" gutterBottom>
         <li>
           Annika Koskenniemi F-11,
+          {' '}
+          <Button variant="text" data-id="0" onClick={showPhoneNumber}>Visa nummer</Button>
+        </li>
+        <li>
+          Linda Kenttä P-12,
           {' '}
           <Button variant="text" data-id="0" onClick={showPhoneNumber}>Visa nummer</Button>
         </li>
